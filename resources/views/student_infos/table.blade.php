@@ -19,6 +19,8 @@
             <td>{{ $studentInfo->email }}</td>
             <td>{{ $studentInfo->phone }}</td>
             <td>{{ $studentInfo->address }}</td>
+            <td>{{ $studentInfo->address }}</td>
+            <td>{{ $studentInfo->description }}</td>
             <td>{{ $studentInfo->description }}</td>
                 <td>
                     {!! Form::open(['route' => ['studentInfos.destroy', $studentInfo->id], 'method' => 'delete']) !!}
