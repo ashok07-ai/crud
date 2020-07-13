@@ -10,6 +10,12 @@
     {!! Form::text('last_name', null, ['class' => 'form-control']) !!}
 </div>
 
+<div class="form-group col-sm-6">
+    {!! Form::label('last_name', 'Last Name:') !!}
+    {!! Form::text('last_name', null, ['class' => 'form-control']) !!}
+</div>
+
+
 <!-- Email Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('email', 'Email:') !!}
@@ -33,6 +39,7 @@
     {!! Form::label('description', 'Description:') !!}
     {!! Form::textarea('description', null, ['class' => 'form-control']) !!}
 </div>
+
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
